@@ -1,3 +1,3 @@
-## Data Science January
+## Data Science February
 
-This repo contains codes of Data Science Batch started in January.
+This repo contains codes of Data Science Batch started in February.
