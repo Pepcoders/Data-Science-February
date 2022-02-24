@@ -1,0 +1,1112 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Class-1: Getting Started with Python.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOb4DxUmt8tteIx/2jkjR5M",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pepcoders/Data-Science-February/blob/main/Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Why Python ? \n",
+        "\n",
+        "  - Easy to learn\n",
+        "  - Vast Library Support\n",
+        "      - Scikit-Learn\n",
+        "      - Pandas\n",
+        "      - Numpy\n",
+        "      - Scipy\n",
+        "      - Matplotlib\n",
+        "      - Seaborn\n",
+        "      - Tenorsflow.....ect\n",
+        "  - Industry use"
+      ],
+      "metadata": {
+        "id": "V3Tw1gXjZRLF"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Let's Learn Python"
+      ],
+      "metadata": {
+        "id": "zBzRuEIgbJHR"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 1. Python in Simple\n",
+        "  - python - 6/10\n",
+        "  - french - 4/10"
+      ],
+      "metadata": {
+        "id": "T8l9YlnhbOYF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import this"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1CDlRKHQbN4s",
+        "outputId": "7eafb46a-06dc-4787-fdc1-3cfe91d69159"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The Zen of Python, by Tim Peters\n",
+            "\n",
+            "Beautiful is better than ugly.\n",
+            "Explicit is better than implicit.\n",
+            "Simple is better than complex.\n",
+            "Complex is better than complicated.\n",
+            "Flat is better than nested.\n",
+            "Sparse is better than dense.\n",
+            "Readability counts.\n",
+            "Special cases aren't special enough to break the rules.\n",
+            "Although practicality beats purity.\n",
+            "Errors should never pass silently.\n",
+            "Unless explicitly silenced.\n",
+            "In the face of ambiguity, refuse the temptation to guess.\n",
+            "There should be one-- and preferably only one --obvious way to do it.\n",
+            "Although that way may not be obvious at first unless you're Dutch.\n",
+            "Now is better than never.\n",
+            "Although never is often better than *right* now.\n",
+            "If the implementation is hard to explain, it's a bad idea.\n",
+            "If the implementation is easy to explain, it may be a good idea.\n",
+            "Namespaces are one honking great idea -- let's do more of those!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "// Hello world in Java\n",
+        "\n",
+        "class HelloWorld{\n",
+        "    public static void main(Sting args[]){\n",
+        "        System.out.println(\"Hello World\");\n",
+        "    }\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "YblwH91vbNKm"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "// Hello world in c++\n",
+        "\n",
+        "#include <iostream>\n",
+        "using namspace std\n",
+        "\n",
+        "int main(){\n",
+        "    cout<<\"Hello World\";\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "5x2NaMHFaQmO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Hello World\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7v6hqe1kcEwu",
+        "outputId": "29cc046e-ce0e-4819-e261-4190e001aa7b"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Swap two numbers"
+      ],
+      "metadata": {
+        "id": "7ux-_81Bca8Z"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "// Hello world in Java\n",
+        "\n",
+        "class HelloWorld{\n",
+        "    public static void main(Sting args[]){\n",
+        "        int a = 10;\n",
+        "        int b = 20;\n",
+        "\n",
+        "        int temp = a;\n",
+        "        int a = b;\n",
+        "        int b = temp;\n",
+        "        System.out.println(a + \" \" + b);\n",
+        "    }\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "5LN4TMRNcGq3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10\n",
+        "b = 20\n",
+        "\n",
+        "a, b = b, a"
+      ],
+      "metadata": {
+        "id": "wH6mtGGCcvnl"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dEeULM8lczRE",
+        "outputId": "de31fba8-b28a-4791-989b-92a25d0dd342"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "10"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# no Data Type == No Tension "
+      ],
+      "metadata": {
+        "id": "jhaCxoy1eEE2"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "//Java / C++\n",
+        "\n",
+        "int a = 10 \n",
+        "a = 10.5 // Error\n",
+        "a = \"Hello\" // Error"
+      ],
+      "metadata": {
+        "id": "gZZc5-x8c0E4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "azogRljWeh2s",
+        "outputId": "72a8ff08-53e1-46c1-bc94-6effe4494690"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wqrgMPuGesXM",
+        "outputId": "577a2aa8-be11-4916-d7d2-7cb19afd3e52"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 17
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10.5"
+      ],
+      "metadata": {
+        "id": "HRBqDF79eikV"
+      },
+      "execution_count": 18,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "R_oYvSowej63",
+        "outputId": "92e31222-5d56-4423-98e8-0210f4f3b288"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "10.5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lGcLxJeFeksL",
+        "outputId": "07653cd3-4590-4231-f5ff-cf352e3bf1c2"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = \"Python\"\n",
+        "type(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-1xDERsBeqSu",
+        "outputId": "e646afda-fd44-4c3e-a2af-a68ec7d95bd2"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 15
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 3. No Chance of Semicolon/Braces Error 😎😎"
+      ],
+      "metadata": {
+        "id": "g1jxL8eCfvTI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "// Other Programming Languages\n",
+        "\n",
+        "if (condition){\n",
+        "    print();\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "6-u76SdOeyw9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10\n",
+        "b = 20\n",
+        "\n",
+        "if a > b:\n",
+        "  print(\"Python is Pro\")\n",
+        "print(\"Hello\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HP9aEcKggVKp",
+        "outputId": "9def7bd1-107f-4742-e03d-92e40e78724c"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10\n",
+        "b = 20\n",
+        "\n",
+        "if a > b:\n",
+        "  print(\"Python is Pro\")\n",
+        " print(\"Hello\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        },
+        "id": "H3eK06ibhf9m",
+        "outputId": "ff44d0af-4409-4192-e332-92a42b5c1806"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-24-961e2b4024b1>\"\u001b[0;36m, line \u001b[0;32m6\u001b[0m\n\u001b[0;31m    print(\"Hello\")\u001b[0m\n\u001b[0m                  ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unindent does not match any outer indentation level\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from __future__ import braces"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        },
+        "id": "VTYfB8Qegdmp",
+        "outputId": "b2db9371-99f8-4a72-bcbf-187e542d2ef6"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-23-6d5c5b2f0daf>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    from __future__ import braces\u001b[0m\n\u001b[0m                                 ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m not a chance\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Indentifiers\n",
+        "  - Name of Variable, Class, Function, Modules...ect\n",
+        "  - Rules\n",
+        "    - small letter (a-z)\n",
+        "    - Cap letter (A-Z)\n",
+        "    - Number(0-9) - Not in starting\n",
+        "    - _\n",
+        "    - no special char."
+      ],
+      "metadata": {
+        "id": "RZ6Pi9LLhkeM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10"
+      ],
+      "metadata": {
+        "id": "AKZ1xJnRhj3G"
+      },
+      "execution_count": 25,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "1a = 10"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        },
+        "id": "ApO6HOq4hNkR",
+        "outputId": "88218e45-be58-49e7-bbf6-9c71784036d5"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-26-1be9f8edb7cd>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    1a = 10\u001b[0m\n\u001b[0m     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a1 = 10"
+      ],
+      "metadata": {
+        "id": "1OBVa9AuiaUD"
+      },
+      "execution_count": 27,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a_ = 10"
+      ],
+      "metadata": {
+        "id": "3QgmXoSFieAw"
+      },
+      "execution_count": 28,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "_a = 10"
+      ],
+      "metadata": {
+        "id": "1euJlb7-ifR1"
+      },
+      "execution_count": 29,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a$ = 10"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        },
+        "id": "nQt87cpCigRc",
+        "outputId": "bfde9fc1-8433-44f0-b701-56a4ff19432c"
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-30-20171081f5c4>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    a$ = 10\u001b[0m\n\u001b[0m     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ABC = 100"
+      ],
+      "metadata": {
+        "id": "ALsrLdRVijYR"
+      },
+      "execution_count": 31,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "apple = 10"
+      ],
+      "metadata": {
+        "id": "mkld0bTzkS7b"
+      },
+      "execution_count": 42,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Ab = 30"
+      ],
+      "metadata": {
+        "id": "CPHAqrvAirqR"
+      },
+      "execution_count": 32,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A_b = 50"
+      ],
+      "metadata": {
+        "id": "25-3NYvviszM"
+      },
+      "execution_count": 33,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "$a = 20\n",
+        "A$ = 30\n",
+        "10a = 50"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        },
+        "id": "JaD3tQioiucK",
+        "outputId": "ee4810ec-5c3f-4705-cca3-600b0a054a5b"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-36-76bb30202555>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    $a = 20\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if1 = 200"
+      ],
+      "metadata": {
+        "id": "4mPDeM46kZjq"
+      },
+      "execution_count": 43,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v9FuryZOkbSI",
+        "outputId": "998e9da9-d362-4042-b887-0686a27b8773"
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "200"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 44
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import keyword"
+      ],
+      "metadata": {
+        "id": "P3YEpbIDi0RV"
+      },
+      "execution_count": 37,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "keyword.kwlist"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FqXzXh51jDfR",
+        "outputId": "d51a0da7-7665-45d6-83eb-5c0bc005d581"
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['False',\n",
+              " 'None',\n",
+              " 'True',\n",
+              " 'and',\n",
+              " 'as',\n",
+              " 'assert',\n",
+              " 'async',\n",
+              " 'await',\n",
+              " 'break',\n",
+              " 'class',\n",
+              " 'continue',\n",
+              " 'def',\n",
+              " 'del',\n",
+              " 'elif',\n",
+              " 'else',\n",
+              " 'except',\n",
+              " 'finally',\n",
+              " 'for',\n",
+              " 'from',\n",
+              " 'global',\n",
+              " 'if',\n",
+              " 'import',\n",
+              " 'in',\n",
+              " 'is',\n",
+              " 'lambda',\n",
+              " 'nonlocal',\n",
+              " 'not',\n",
+              " 'or',\n",
+              " 'pass',\n",
+              " 'raise',\n",
+              " 'return',\n",
+              " 'try',\n",
+              " 'while',\n",
+              " 'with',\n",
+              " 'yield']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 38
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "len(keyword.kwlist)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7aewpmHQjlVh",
+        "outputId": "5840bf80-48a3-45f6-800f-b53d33b0866d"
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "35"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 41
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if = 30"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        },
+        "id": "nDVap77sjGE7",
+        "outputId": "336df182-d5a2-4f4d-efd1-a6d1634acabb"
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-39-71e64d133460>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    if = 30\u001b[0m\n\u001b[0m       ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fi = 20"
+      ],
+      "metadata": {
+        "id": "ag6Xn12SjQtn"
+      },
+      "execution_count": 40,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Comments In Python"
+      ],
+      "metadata": {
+        "id": "izMxI-mHkk0J"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "// - Java or C++ comments"
+      ],
+      "metadata": {
+        "id": "90E1tOAojRtb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# This code is checking if a is less than b or not\n",
+        "\n",
+        "if a < b:\n",
+        "\n",
+        "  print(a, \"is less than\", b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2TMRR1zOk-Dv",
+        "outputId": "cc38e48d-153e-4c15-847b-c012356ee7b4"
+      },
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10 is less than 20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# miltiline comments\n",
+        "# Line - 1\n",
+        "# Line - 2\n",
+        "# Line - 3\n"
+      ],
+      "metadata": {
+        "id": "-YJkDEWqlHCL"
+      },
+      "execution_count": 47,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'''\n",
+        "Hello wolrd\n",
+        "man is mortal\n",
+        "India is best\n",
+        "'''\n",
+        "\n",
+        "print(\"This is multiline comment..\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ccgi12V-mHDt",
+        "outputId": "d483ab26-ccc2-42df-8536-a9468e9ec3bc"
+      },
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is multiline comment..\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"\n",
+        "Hello wolrd\n",
+        "man is mortal\n",
+        "India is best\n",
+        "\"\"\"\n",
+        "\n",
+        "\n",
+        "print(\"This is multiline comment..\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ul2RK_pumWGn",
+        "outputId": "f79a1ff6-58cd-4d98-de98-b83855508535"
+      },
+      "execution_count": 51,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is multiline comment..\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Statements in Python"
+      ],
+      "metadata": {
+        "id": "ZWoDg7uMmm54"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# single line statements\n",
+        "num = 10"
+      ],
+      "metadata": {
+        "id": "_Hx0l4oYmiY6"
+      },
+      "execution_count": 53,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# multiline statements\n",
+        "a = 10 + 20 + 30 + 40 + \\\n",
+        "    50 + 60 + 70 + \\\n",
+        "    80 + 90"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        },
+        "id": "31KoklBUmroP",
+        "outputId": "c182b04d-b2be-42a1-e06d-8f9512138ba2"
+      },
+      "execution_count": 61,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-61-4878a02605a5>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    a = 10 + 20 + \\ 30 + 40 +     50 + 60 + 70 +     80 + 90\u001b[0m\n\u001b[0m                                                            ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unexpected character after line continuation character\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PwCxuy-snm_E",
+        "outputId": "c19c5634-c36b-420f-e8eb-ec7677737973"
+      },
+      "execution_count": 56,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "450"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 56
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# multiline statements\n",
+        "a = (10 + 20 + 30 + 40 + \n",
+        "    50 + 60 + 70 + \n",
+        "    80 + 90 + 100)"
+      ],
+      "metadata": {
+        "id": "-EAzB6E7nq_I"
+      },
+      "execution_count": 59,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eai5iQdJoHX3",
+        "outputId": "dfd6d56a-811f-4a57-985d-f1190b0472da"
+      },
+      "execution_count": 60,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "550"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 60
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "g5zNh6VGoL7J"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
