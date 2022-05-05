@@ -30,16 +30,16 @@ In this Readme File I have defined how to run the files in this repository.
     
 Happy 😀
 
-![Happy 😀](Computer-Vision-By-Ankit/Emotion1.jpeg "Title")
+![Happy 😀](Emotion1.jpeg "Title")
 
 Neutral 🙂
 
-![Neutral 🙂](Computer-Vision-By-Ankit/Emotion2.jpeg "Title")
+![Neutral 🙂](Emotion2.jpeg "Title")
 
 
 Surprise 😮
 
-![Surprise 😮](Computer-Vision-By-Ankit/Emotion3.jpeg "Title")
+![Surprise 😮](Emotion3.jpeg "Title")
 
 
 
@@ -52,7 +52,7 @@ s
         *   To run this project : 
             * Open Jupyter Notebook
             * Run the Code using shift + enter
-         ![Surprise 😮](Computer-Vision-By-Ankit/hil.jpeg "Title")
+         ![Surprise 😮](hil.jpeg "Title")
    
    * **OpenCv and Mediapipe** : This is the code if someone wants to learn open cv and mediapipe from scratch.
         * To run the code 
@@ -66,7 +66,7 @@ s
     * To run 
         * Open file in jypyter notebook
         * Press shift + enter on each code block
-         ![Gym 😮](Computer-Vision-By-Ankit/Gym.jpeg "Title")
+         ![Gym 😮](Gym.jpeg "Title")
 
 * # 4 . Temple Run Automation  : 
     ## This is the extendsion of automation of hill climb game. In this we are automating the  populated temple run game.
@@ -74,7 +74,7 @@ s
     * To run 
         * Open file in jypyter notebook
         * Press shift + enter on each code block
-         ![Surprise 😮](Computer-Vision-By-Ankit/Temple.jpeg "Title")
+         ![Surprise 😮](Temple.jpeg "Title")
 
 * # 5 . Virtual Keyboard  : 
     ##  Now a days technology is faster and wireless so we got an idea to capture keys without any touch and presented our virtual keyboard.
@@ -82,4 +82,4 @@ s
     * To run 
         * Open file in jypyter notebook
         * Press shift + enter on each code block
-         ![Surprise 😮](Computer-Vision-By-Ankit/keyboard.jpeg "Title")
+         ![Surprise 😮](keyboard.jpeg "Title")
